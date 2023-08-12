@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contest F2</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body{
+    background-image: url("body.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;    
+    text-align: center;
+}
+.in{
+    position: relative;
+    padding: 2%;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    top: 100px;
+    align-items: center;
+    background-image: url("div.jpg");
+    border:0px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.in:hover{
+    opacity: 1;
+   
+}
+.out{
+    position: relative;
+    padding: 2%;
+    
+    background-color: #000000;
+    color: white;
+    border:0px;
+    border-radius: 10px;
+}
+
+button{
+    border: 0px;
+    height: 25%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background-color: rgb(121, 212, 255);
+}
+button:hover{
+    background-color:rgb(30, 128, 255);
+    box-shadow: 0 0 6px rgb(30, 128, 255), 0 0 6px rgb(30, 128, 255);
+    transition: all 0.7s;
+}
+h1, h2{
+   color: rgb(255, 255, 255);
+   text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+}
+p{
+    font-size: large;
+}
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="in">
+        <h1>F2 Contest 1</h1>
+        <button onclick="PrintDeveloper()">Console log Developer</button>
+        <button onclick="addData()">Console New Data with New Employee</button>
+        <button onclick="removeAdmin()">Remove Admin</button>
+        <button onclick="concatenateArray()">concatenateArray</button>
+        <h2>Output</h2>
+        <div class="out"><p id="sol"></p></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
